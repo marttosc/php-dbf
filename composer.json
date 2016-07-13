@@ -1,0 +1,15 @@
+{
+  "name": "marttosc/php-dbf",
+  "description": "A simple parser for DBF files",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gustavo Marttos",
+      "email": "marttosc@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  }
+}
