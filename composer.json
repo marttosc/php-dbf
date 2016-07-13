@@ -1,6 +1,9 @@
 {
   "name": "marttosc/php-dbf",
   "description": "A simple parser for DBF files",
+  "keywords": [
+    "marttosc", "dbf", "reader", "dbase", "parser", "php"
+  ],
   "minimum-stability": "dev",
   "license": "MIT",
   "authors": [
@@ -11,5 +14,18 @@
   ],
   "require": {
     "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Marttos\\Dbf\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Marttos\\Dbf\\Testing\\": "tests/"
+    }
   }
 }
