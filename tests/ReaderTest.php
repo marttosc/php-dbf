@@ -29,4 +29,9 @@ class ReaderTest extends AbstractTestCase
     {
         $this->assertTrue($this->reader->isDbf());
     }
+
+    public function testLastUpdateIsInt()
+    {
+        $this->assertInternalType('int', $this->reader->lastUpdate);
+    }
 }
