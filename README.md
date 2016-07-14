@@ -1,2 +1,3 @@
-# php-dbf
-A simple parser for DBF files
+# PHP DBF to SQL [![Build Status](https://travis-ci.org/marttosc/php-dbf-sql.svg?branch=develop)](https://travis-ci.org/marttosc/php-dbf-sql)
+
+A simple library to convert DBF files into SQL.
