@@ -14,7 +14,8 @@
   ],
   "require": {
     "php": ">=5.4",
-    "hisamu/php-xbase": "^1.0.1"
+    "hisamu/php-xbase": "^1.0.1",
+    "illuminate/support": "^5.2"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0"

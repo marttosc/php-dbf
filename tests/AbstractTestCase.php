@@ -1,6 +1,6 @@
 <?php
 
-namespace Marttos\Dbf\Testing;
+namespace Marttos\DbfSql\Testing;
 
 abstract class AbstractTestCase extends \PHPUnit_Framework_TestCase
 {

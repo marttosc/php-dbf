@@ -3,3 +3,4 @@ composer.lock
 /vendor
 *.dbf
 !dbf/customer.dbf
+/.project

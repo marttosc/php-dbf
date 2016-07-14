@@ -1,6 +1,6 @@
 <?php
 
-namespace Marttos\Dbf\Exceptions;
+namespace Marttos\DbfSql\Exceptions;
 
 abstract class AbstractException extends \Exception
 {
